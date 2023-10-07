@@ -1,13 +1,20 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const { ModuleFederationPlugin } = require('webpack').container
 
 module.exports = {
   mode: 'development',
-  devServer: {
-    port: 8001
-  },
+  output: { clean: true },
+  devServer: { port: 8001 },
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html'
+    }),
+    new ModuleFederationPlugin({
+      filename: 'remoteEntry.js',
+      name: 'cart',
+      exposes: {
+        './index': './src/index'
+      }
     })
   ]
 }

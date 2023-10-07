@@ -4,9 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "build": "webpack"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.1.0",
     "html-webpack-plugin": "^5.5.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",

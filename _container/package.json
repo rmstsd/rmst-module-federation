@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "build": "webpack"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",
