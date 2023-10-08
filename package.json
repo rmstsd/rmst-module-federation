@@ -1,0 +1,11 @@
+{
+  "name": "w",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "acorn": "^8.10.0",
+    "acorn-walk": "^8.2.0"
+  }
+}

@@ -1,23 +1,7 @@
-'use strict'
-;(self['webpackChunkcontainer'] = self['webpackChunkcontainer'] || []).push([
-  ['src_bootstrap_js'],
-  {
-    /***/ './src/bootstrap.js':
-      /*!**************************!*\
-  !*** ./src/bootstrap.js ***!
-  \**************************/
-      /***/ (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-        __webpack_require__.r(__webpack_exports__)
-        /* harmony import */ var products_n_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
-          /*! products_n/index */ 'webpack/container/remote/products_n/index'
-        )
-        /* harmony import */ var products_n_index__WEBPACK_IMPORTED_MODULE_0___default =
-          /*#__PURE__*/ __webpack_require__.n(products_n_index__WEBPACK_IMPORTED_MODULE_0__)
+"use strict";
 
-        console.log('_container', products_n_index__WEBPACK_IMPORTED_MODULE_0___default())
-
-        /***/
-      }
-  }
-])
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3JjX2Jvb3RzdHJhcF9qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFBa0M7O0FBRWxDLDBCQUEwQix5REFBRyIsInNvdXJjZXMiOlsid2VicGFjazovL2NvbnRhaW5lci8uL3NyYy9ib290c3RyYXAuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGlkeCBmcm9tICdwcm9kdWN0c19uL2luZGV4J1xuXG5jb25zb2xlLmxvZygnX2NvbnRhaW5lcicsIGlkeClcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==
+(self.webpackChunkcontainer = self.webpackChunkcontainer || []).push([ [ "src_bootstrap_js" ], {
+    "./src/bootstrap.js": (__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+        eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var cart_n_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! cart_n/index */ \"webpack/container/remote/cart_n/index\");\n/* harmony import */ var cart_n_index__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(cart_n_index__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var products_n_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! products_n/index */ \"webpack/container/remote/products_n/index\");\n/* harmony import */ var products_n_index__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(products_n_index__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n// console.log('_container', products_n, cart_n)\n\n(0,cart_n_index__WEBPACK_IMPORTED_MODULE_0__.mount)(document.querySelector('.cart'))\n\n\n//# sourceURL=webpack://container/./src/bootstrap.js?");
+    }
+} ]);
