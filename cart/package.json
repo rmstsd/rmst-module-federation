@@ -8,7 +8,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@faker-js/faker": "^8.1.0"
+    "@faker-js/faker": "8.1.0"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",

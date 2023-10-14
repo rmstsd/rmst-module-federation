@@ -13,9 +13,14 @@ module.exports = {
       filename: 'remoteEntry.js',
       name: 'cart',
       exposes: {
-        './index': './src/bootstrap'
+        './index': './src/index'
+      },
+      shared: {
+        '@faker-js/faker': {
+          // eager: true,
+          singleton: true // 版本不一致的时候使用高版本
+        }
       }
-      // shared: ['@faker-js/faker']
     })
   ]
 }

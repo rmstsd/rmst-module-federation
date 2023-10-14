@@ -15,8 +15,12 @@ module.exports = {
       name: 'products',
       exposes: {
         './index': './src/index'
+      },
+      shared: {
+        '@faker-js/faker': {
+          singleton: true // 版本不一致的时候使用高版本
+        }
       }
-      // shared: ['@faker-js/faker']
     })
   ]
 }

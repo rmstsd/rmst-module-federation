@@ -7,6 +7,9 @@
     "dev": "webpack serve",
     "build": "webpack"
   },
+  "dependencies": {
+    "@faker-js/faker": "8.0.2"
+  },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.3",
     "terser-webpack-plugin": "^5.3.9",
