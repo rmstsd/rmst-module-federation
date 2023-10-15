@@ -13,11 +13,11 @@ module.exports = {
       filename: 'remoteEntry.js',
       name: 'cart',
       exposes: {
-        './index': './src/index'
+        './index': './src/bootstrap'
       },
       shared: {
         '@faker-js/faker': {
-          // eager: true,
+          // eager: true,  // 如果不希望共享模块异步加载 可设置此选项
           singleton: true // 版本不一致的时候使用高版本
         }
       }
